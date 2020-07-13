@@ -17,7 +17,7 @@ int adjacentElementsProduct(arr_integer inputArray) {
     
     int max = inputArray.arr[0] * inputArray.arr[1];
 
-    printf("%ld",sizeof(inputArray)/sizeof(int));
+    // printf("%ld",sizeof(inputArray)/sizeof(int));
     int i;
     for(i = 1; i < inputArray.size-1; i++){
         if(inputArray.arr[i]*inputArray.arr[i+1]>=max){
